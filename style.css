@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family:'Times New Roman', Times, serif;}
+
+.flow{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.img img{
+    width: 100%;
+    border-right: 1px solid black;
+}
+.profile img{
+    width: 100%;
+    border-radius: 100px;
+}
+.video{
+    margin: 1rem;
+}
+h1{
+    font-size: 1.5rem;
+}
+.videoinfo{
+    display: grid;
+    grid-template-columns: 50px auto;
+}
